@@ -1,19 +1,18 @@
 # Nome do projeto
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+A plataforma web (Nome do Projeto) tem como objetivo fornecer de maneira objetiva, didatica e gratuita, material de nível acadêmico sobre técnologia...
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 4
-* Nome completo do aluno 4
+* Albert Daniel Silva Souza
+* Arthur Henrique Dias da Silva Campos
+* Diego Rocha Gonçalves
+* Geovane Araujo Viana
+* Gustavo Milagres da Costa
+* Leonardo Mendes Rocha
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Felipe Augusto Lima Reis
 
 ## Quadro de tarefas
 Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.
