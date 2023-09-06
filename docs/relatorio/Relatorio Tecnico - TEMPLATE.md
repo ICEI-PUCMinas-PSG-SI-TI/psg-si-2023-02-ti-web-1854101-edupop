@@ -1,23 +1,20 @@
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Plataforma de Educação: EduPop`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica e gratuita, conteúdo para letramento digital e material de nível acadêmico sobre tecnologia e principais ferramentas utilizadas no mercado de trabalho.
 
-`CURSO` 
+`ANALISE E DESENVOLVIMENTO DE SISTEMAS` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
+## Participantes:
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Albert Daniel Silva Souza
+> - Arthur Henrique Dias da Silva Campos
+> - Diego Rocha Gonçalves
+> - Geovane Araujo Viana
+> - Gustavo Milagres da Costa
+> - Leonardo Mendes Rocha
 
-# Estrutura do Documento
+# Estrutura do Documento:
 
 - [Informações do Projeto](#informações-do-projeto)
   - [Participantes](#participantes)
