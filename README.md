@@ -1,5 +1,5 @@
-# Nome do projeto
-A plataforma web (Nome do Projeto) tem como objetivo fornecer de maneira objetiva, didatica e gratuita, material de nível acadêmico sobre técnologia...
+# EduPop
+A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica e gratuita, conteúdo para letramento digital e material de nível acadêmico sobre tecnologia e principais ferramentas utilizadas no mercado de trabalho.
 
 ## Alunos integrantes da equipe
 
