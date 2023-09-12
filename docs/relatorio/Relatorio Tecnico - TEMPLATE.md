@@ -34,61 +34,29 @@ A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica
   
 # Introdução
 
+Nos últimos anos, a procura por cursos de tecnologia vem aumentando e com isso, a quantidade de informação e de conteúdos desorganizados aumenta com objetivo de suprir essa necessidade.  
+A partir dessa popularização e procura, a quantidade de cursos e materiais supérfluos, com promessas de empregos rápidos com salários altos aumenta de maneira exponencial, gerando uma crescente formação de profissional rasos e incapazes de atender a real demanda que existe no mercado atual. 
+Diante desse cenário, é fundamental oferecer aos estudantes que buscam ingressar na área de tecnologia, um direcionamento fundamental, para que, ao chegar no momento de aplicar para projetos pessoais ou vagas de emprego, as expectativas em cima desse profissional, estejam à altura das necessidades do mercado.
+
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
+De acordo com os fatos mencionados acima, esse projeto tem como objetivo oferecer material sobre letramento digital, tecnologia, treinamentos e projetos práticos orientado as reais necessidades do mercado sem fins lucrativos, sem promessas irrealistas.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo deste trabalho é a criação de uma plataforma web, que forneça cursos, projetos, suporte efetivo para projetos e dúvidas, recomendação de livros, podcasts e notícias.
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Estabeleceu-se como público alvo desse projeto, homens e mulheres, entre 14 a 50 anos, sendo eles, alunos do ensino fundamental e médio interessados pela área de tecnologia, alunos de graduações enfrentando desafios nos conteúdos vistos em sala de aula ou profissionais de outras áreas, buscando novos horizontes no mercado de trabalho.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+O levantamento das informações e coleta de pontos mais relavantes foram obtidas a partir de entrevistas e questionários a uma gama de usuários distintos. Esses detalhes foram levantados junto do processo de personas e histórias de usuários.
 
 ## Personas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
 > Relacione as personas identificadas no seu projeto. Lembre-se que 
 > você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
