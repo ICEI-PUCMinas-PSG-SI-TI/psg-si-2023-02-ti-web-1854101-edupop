@@ -9,6 +9,7 @@ A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica
 * Geovane Araujo Viana
 * Gustavo Milagres da Costa
 * Leonardo Mendes Rocha
+* Vitor Carvalho Duarte
 
 ## Professores responsáveis
 
