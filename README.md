@@ -1,4 +1,4 @@
-# EduPop
+<img src="logo.png">
 A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica e gratuita, conteúdo para letramento digital e material de nível acadêmico sobre tecnologia e principais ferramentas utilizadas no mercado de trabalho.
 
 ## Alunos integrantes da equipe
