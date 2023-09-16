@@ -13,6 +13,7 @@ A plataforma web EduPop tem como objetivo oferecer de maneira objetiva, didatica
 > - Geovane Araujo Viana
 > - Gustavo Milagres da Costa
 > - Leonardo Mendes Rocha
+> - Vitor Carvalho Duarte
 
 # Estrutura do Documento:
 
@@ -81,17 +82,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Seguindo o modelo acima, apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> da sua aplicação. Utilize as personas criadas como atores e, se for o caso, um administrador. 
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+|Luiza Eduarda Menezes Campos| Acompanhar meu progresso dos cursos| Poder saber o quanto estou progredindo.|
+|Luiza Eduarda Menezes Campos| Biblioteca Digital| Achar artigos, documentos ou materiais para auxiliar os estudos.|
+|Luiza Eduarda Menezes Campos| Fórum de debates| Tirar dúvidas com outros alunos.|
+|José Antônio de Campos| Avaliação em pares| Aprender a analisra códigos de outros programadores.|
+|José Antônio de Campos| Biblioteca Digital| Achar artigos, documentos ou materiais para auxiliar os estudos.|
+|José Antônio de Campos| Formação de grupos de estudos| Unir-se a outros programadores para o desenvolvimento de projetos complexos. |
+|Marcela Santino| Gerenciamento de conteúdo| Poder remover conteúdos que ferem os Termos de Condição de Uso da plataforma.|
 
 ## Requisitos
 
@@ -101,21 +98,24 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RF-001| Permitir a criação de aulas. | MUITO ALTA | 
+|RF-002| Permitir uma solicitação para uma correção de código.   | MUITO ALTA |
+|RF-003| Gerenciamento de Conteúdo.   | MUITO ALTA |
+|RF-004| Avaliação e comentários.   | MUITO ALTA |
+|RF-005| Sistema de Cadastro   | ALTA |
+|RF-006| Sistema de login  | ALTA |
+|RF-007| Painel do Professor   | ALTA |
+|RF-008| Gestão de Perfil   | ALTA |
+|RF-009| Acessibilide para PCD's  | ALTA |
+|RF-010| Fórum para debates  | MÉDIA |
+|RF-011| Biblioteca Digital   | MÉDIA |
+|RF-012| Acompanhamento de progresso   | MÉDIA |
+|RF-013| Ferramentas de Avaliação em Pares   | BAIXA |
+|RF-014| Formação de Grupo de estudos   | BAIXA |
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
+HTML, CSS, JavaScript.
 
 ## Wireframes
 
