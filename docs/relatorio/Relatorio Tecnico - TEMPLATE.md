@@ -40,7 +40,7 @@ A partir dessa popularização e procura, a quantidade de cursos e materiais sup
 Diante desse cenário, é fundamental oferecer aos estudantes que buscam ingressar na área de tecnologia, um direcionamento fundamental, para que, ao chegar no momento de aplicar para projetos pessoais ou vagas de emprego, as expectativas em cima desse profissional, estejam à altura das necessidades do mercado.
 
 ## Problema
-
+A proposta de solução desse projeto surgiu em cima do ponto de vista de "As Vagas Realmente Acabaram? (Investigação)" e "PORQUE você NÃO consegue APRENDER A PROGRAMAR", que apontam principalmente a falta de mão de obra especializada, de forma que, com o <i>BOOM</i> dos últimos 10 anos do mercado de tecnologia, a procura por cursos e formações de Tecnologia e programação cresceu muito, junto disso a oferta por cursos de formação cresceu, porém, a qualidade dessas formações não estão a altura das necessidades do mercado, criando uma massa de programadores despreparados e insatisfeitos.
 De acordo com os fatos mencionados acima, esse projeto tem como objetivo oferecer material sobre letramento digital, tecnologia, treinamentos e projetos práticos orientado as reais necessidades do mercado sem fins lucrativos, sem promessas irrealistas.
 
 ## Objetivos
@@ -59,22 +59,10 @@ O levantamento das informações e coleta de pontos mais relavantes foram obtida
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
- 
+<img src="/docs/relatorio/images/Persona1.png">
+<img src="/docs/relatorio/images/Design sem nome.jpg">
+<img src="/docs/relatorio/images/PersonaAdm.jpeg">
+<img src="/docs/relatorio/images/PersonaProfessor.jpeg">
 
 ## Histórias de Usuários
 
@@ -149,11 +137,5 @@ HTML, CSS, JavaScript.
 > ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
 
 # Conclusões
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
-
-
+Com o crescimento da procurar por formações de TI, o aumento na quantidade de profissionais não especializados cresceu, gerando diversos problemas no mercado, tanto para as empresas, quanto para os próprios candidatos.<br>
+Diantes os fatos mencionados, a plataforma EduPop busca superar a falta de qualidade e direcionamento na formação dos profissionais do meio de tecnologia! Ensinando não só a sintaxe das técnologias e Lógica de Programação, a partir dos principais e mais importantes conceitos que o mercado espera de um desenvolvedor Junior.
