@@ -107,7 +107,10 @@ HTML, CSS, JavaScript.
 
 ## Wireframes
 
-<img src="/docs/relatorio/images/wireframe1.png">
+<img src="/docs/relatorio/images/01_home.png">
+<img src="/docs/relatorio/images/02_todos_cursos.png">
+<img src="/docs/relatorio/images/03_modulos.png">
+<img src="/docs/relatorio/images/04_player_aula.png">
 
 
 ## Mapa de navegação
