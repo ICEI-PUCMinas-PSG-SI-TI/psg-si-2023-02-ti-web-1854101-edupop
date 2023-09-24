@@ -127,14 +127,7 @@ HTML, CSS, JavaScript.
 
 ## Mapa de navegação
 
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
-
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
-
-
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
+<img src="/docs/relatorio/images/userflows.jpg">
 
 # Conclusões
 Com o crescimento da procurar por formações de TI, o aumento na quantidade de profissionais não especializados cresceu, gerando diversos problemas no mercado, tanto para as empresas, quanto para os próprios candidatos.<br>
