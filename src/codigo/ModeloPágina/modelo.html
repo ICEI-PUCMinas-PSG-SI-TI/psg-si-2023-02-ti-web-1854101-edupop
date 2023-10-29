@@ -1,0 +1,48 @@
+
+<!-- A estrutura do seu codigo deverá ser assim: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Página</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="modelo.css">
+    <script>
+        $ (
+            // carrega o cabeçalho e o footer na pagina.
+            function () {
+            $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
+            $("#tagRodape").load("../Rodapé/rodape.html");
+
+            // aguarda o carregamento do cabeçalho para inserir a logo.
+            setTimeout(() => {
+                var logo = document.getElementById('logo')
+                logo.src = "../../assets/logoEduPop.png"
+            }, 250)
+        });
+
+    </script>
+</head>
+
+<body>
+    <!-- inicio cabecalho -->
+    <header id="tagCabecalho"></header>
+    <!-- fim cabecalho -->
+
+    <!-- inicio tela -->
+
+    <main class="corpo">
+        Aqui pode ser colocado o conteúdo da página.
+    </main>
+
+    <!-- fim tela -->
+
+    <!-- inicio rodapé -->
+   <footer id="tagRodape"></footer>
+    <!-- fim rodapé -->
+    
+</body>
+
+</html>
