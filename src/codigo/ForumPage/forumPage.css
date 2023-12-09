@@ -1,7 +1,7 @@
 /* Configurações iniciais */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -26,7 +26,6 @@ body {
 }
 
 #navbarSupportedContent ul {
-
   margin-top: 15px;
 }
 
@@ -41,23 +40,64 @@ body {
 
 /* Estilo do corpo */
 
-main{
+main {
   flex: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  padding: 62.5px 150px;
+  height: 100%;
 }
 
+body {
+  margin: 10px 60px;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
+h1,
+h4,
+ol {
+  margin: 0;
+}
 
+p {
+  margin: 5px 0;
+}
 
+.top-bar {
+  background-color: yellow;
+  padding: 0 15px;
+}
+
+.main {
+  background-color: white;
+  padding: 10px 15px;
+}
+
+.row {
+  padding: 5px 0;
+}
+
+.bottom {
+  display: flex;
+  color: grey;
+  font-size: 12px;
+}
+
+.timestamp {
+  padding-right: 10px;
+
+}
 
 /* Estilo do rodapé */
 
 
 .rodape {
   background-color: #EDB106;
-  height: 50px;
+  height: 75px;
   width: 100%;
 }
 

@@ -6,22 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo Página</title>
+    <title>Lista De Usuarios</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="modelo.css">
+    <link rel="stylesheet" href="./UsersList.css">
     <script>
-        $ (
-            // carrega o cabeçalho e o footer na pagina.
-            function () {
-            $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
-            $("#tagRodape").load("../Rodapé/rodape.html");
-
-            // aguarda o carregamento do cabeçalho para inserir a logo.
-            setTimeout(() => {
-                var logo = document.getElementById('logo')
-                logo.src = "../../assets/logoEduPop.png"
-            }, 250)
-        });
+        
 
     </script>
 </head>
@@ -34,7 +23,17 @@
     <!-- inicio tela -->
 
     <main class="corpo">
-        Aqui pode ser colocado o conteúdo da página.
+        <h2 class="page-title">Lista de usuários</h2>
+        <div class="table-box">
+            <table class="table-list">
+                <tr class="line-title">
+                    <th>Nome de usuário</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>País</th>
+                </tr>
+            </table>
+        </div>
     </main>
 
     <!-- fim tela -->
@@ -42,7 +41,7 @@
     <!-- inicio rodapé -->
    <footer id="tagRodape"></footer>
     <!-- fim rodapé -->
-    
+    <script src="./UsersList.js"></script>
 </body>
 
 </html>

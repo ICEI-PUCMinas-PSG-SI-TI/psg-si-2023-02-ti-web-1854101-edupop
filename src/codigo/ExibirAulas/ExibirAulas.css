@@ -1,0 +1,74 @@
+/* Configurações iniciais */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  background-color: #EDB106 !important;
+}
+
+.imagem {
+  max-width: 150px;
+}
+
+#navbarSupportedContent ul {
+  margin-top: 15px;
+}
+
+#nav a {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Estilo do corpo */
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 62.5px 150px;
+  height: 100%;
+}
+
+
+/* Estilo do rodapé */
+
+
+.rodape {
+  background-color: #EDB106;
+  height: 75px;
+  width: 100%;
+}
+
+.centralizar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  height: inherit;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

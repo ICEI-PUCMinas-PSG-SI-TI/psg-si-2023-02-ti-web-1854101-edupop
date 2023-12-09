@@ -1,0 +1,113 @@
+/* Configurações iniciais */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do cabeçalho */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  background-color: #EDB106 !important;
+}
+
+.imagem {
+  max-width: 150px;
+}
+
+#navbarSupportedContent ul {
+
+  margin-top: 15px;
+}
+
+#nav a {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Estilo do corpo */
+
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30%;
+}
+
+.form-container{
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+.form-floating{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+.butão{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Estilo do rodapé */
+
+
+.rodape {
+  background-color: #EDB106;
+  height: 50px;
+  width: 100%;
+}
+
+.centralizar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  height: inherit;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

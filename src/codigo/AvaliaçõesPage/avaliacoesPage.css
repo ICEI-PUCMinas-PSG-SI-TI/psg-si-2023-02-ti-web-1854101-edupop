@@ -1,0 +1,240 @@
+/* Configurações iniciais */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do cabeçalho */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  background-color: #EDB106 !important;
+}
+
+.imagem {
+  max-width: 150px;
+}
+
+#navbarSupportedContent ul {
+  margin-top: 15px;
+}
+
+#nav a {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Estilo do corpo */
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: #EDB106 !important;
+}
+
+#name,
+#photo,
+button {
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+#comment {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.imagem {
+  max-width: 150px;
+}
+
+#comment {
+  max-width: 500px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbarSupportedContent ul {
+  margin-top: 15px;
+}
+
+#nav a {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+.rodape {
+  background-color: #EDB106 !important;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+}
+
+.centralizar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape p {
+  color: white;
+}
+
+#reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+#user-review {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#user-review,
+#all-reviews {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#rating {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.title-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star {
+  color: gold;
+  margin: 0 5px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+img.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #reviews {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #user-review,
+  #all-reviews {
+    width: 100%;
+  }
+
+  img.profile-photo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+/* Estilo do rodapé */
+
+
+.rodape {
+  background-color: #EDB106;
+  height: 75px;
+  width: 100%;
+}
+
+.centralizar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  height: inherit;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

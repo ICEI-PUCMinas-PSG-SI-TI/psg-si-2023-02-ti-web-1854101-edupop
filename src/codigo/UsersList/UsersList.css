@@ -1,0 +1,138 @@
+/* Configurações iniciais */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  background-color: #EDB106 !important;
+}
+
+.imagem {
+  max-width: 150px;
+}
+
+#navbarSupportedContent ul {
+
+  margin-top: 15px;
+}
+
+#nav a {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+
+/* Estilo do corpo */
+
+main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 150px;
+  padding-bottom: 70px;
+  max-height: 1028px;
+}
+
+.page-title{
+  max-height: 50px;
+  width: fit-content;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #D3D3D3;
+}
+
+.table-box{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.table-list{
+  width: 100%;
+  height: 100%;
+}
+
+.line-title{
+  background-color: #D3D3D3;
+}
+
+td, th{
+  border: 1px solid black !important;
+  max-width: 50px;
+  height: 60px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+}
+
+th{
+  padding-top: 10px;
+}
+
+td{
+  vertical-align: top;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.user-icon{
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1300px) {
+  main{
+    padding: 50px 110px;
+  }
+}
+
+@media (max-width: 1000px) {
+  main {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 50px 10px;
+  }
+}
+
+/* Estilo do rodapé */
+
+
+.rodape {
+  background-color: #EDB106;
+  height: 75px;
+  width: 100%;
+}
+
+.centralizar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rodape p {
+  height: inherit;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

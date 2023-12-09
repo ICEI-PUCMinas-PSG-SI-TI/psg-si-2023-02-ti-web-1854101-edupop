@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./ListagemNoticias.css">
+  <script src="./ListagemNoticias.js"></script>
+  <script src="../CadastroNoticias/cadastroNoticias.js"></script>
+  <title>Edupop</title>
+</head>
+
+<body>
+  <!-- inicio cabecalho -->
+  <div id="tagCabecalho"></div>
+  <!-- fim cabecalho -->
+
+  <!-- inicio tela -->
+  <main>
+    <section class="">
+      <header class="blogHeader">
+        <h2 class="headerNews2">Notícias</h2>
+      </header>
+      <div class="noticiasContainer">
+        <ul id="listaNoticias">
+        </ul>
+      </div>
+      <div class="pagination">
+        <button onclick="prevPage()" class="BtnBlog">Anterior</button>
+        <button onclick="nextPage()" class="BtnBlog">Próxima</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- fim tela -->
+
+  <footer id="tagRodape">
+
+  </footer>
+</body>
+
+</html>

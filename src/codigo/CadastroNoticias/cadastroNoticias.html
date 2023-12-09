@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./cadastroNoticias.css">
+  <script src="./cadastroNoticias.js"></script>
+  <title>Edupop</title>
+</head>
+
+<body>
+  <!-- inicio cabecalho -->
+  <div id="tagCabecalho"></div>
+  <!-- fim cabecalho -->
+
+  <!-- inicio tela -->
+  <main>
+    <div class="main-section">
+      <section class="newsSection">
+        <div class="container-form">
+          <div class="headerNews">
+            <h1>Gerenciamento de notícias</h1>
+          </div>
+          <div class="divForm">
+            <form id="formNews" class="newsForm">
+              <header>
+                <label for="titulo" class="newsTitleLabel">Titulo<h6 class="newsAlert">OBRIGATÓRIO</h6>
+                </label>
+                <input type="text" id="titulo" class="titleNewsInput" placeholder="Escreva o titulo da notícia">
+    
+                <label for="categoria" class="categorysTitleLabel">Categoria<h6 class="newsAlert">
+                    OBRIGATÓRIO</h6>
+                </label>
+                <input id="categoria" class="imagesNewsInput titleNewsInput" type="text"
+                  placeholder="Escreva a categoria da notícia">
+              </header>
+    
+              <article>
+    
+                <label for="newsContent" class="categorysTitleLabel">
+                  <h1 class="contentNewsTitle">Conteudo da noticia</h1>
+                </label>
+
+                <textarea name="newsContentArea" id="newsContent" cols="100%" rows="10" class="noticeContent"
+                  placeholder="Escreva o conteúdo da notícia"></textarea>
+
+                <br>
+                
+                <label for="newsImage" class="categorysTitleLabel">Imagem<h6 class="newsAlert">OBRIGATÓRIO</h6></label>
+                <input id="newsImage" class="imagesNewsInput titleNewsInput" type="text" placeholder="Informe o LINK da imagem">
+              </article>
+    
+              <button class="btnPost" value="Cadastrar noticia" onclick="cadastrarNoticias()"
+                id="btnNewsPost">Postar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    
+    <section class="exibir-noticias">
+      <h2>Notícias Cadastradas</h2>
+      <ul id="listaNoticias" class="noticesPost">
+      </ul>
+    </section>
+  </main>
+
+  <!-- fim tela -->
+
+  <footer id="tagRodape">
+
+  </footer>
+  <script src="./cadastroCurso.js"></script>
+
+</body>
+
+</html>

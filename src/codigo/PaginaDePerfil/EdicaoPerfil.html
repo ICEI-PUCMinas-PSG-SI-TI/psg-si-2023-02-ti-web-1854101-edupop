@@ -1,0 +1,153 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="editprofile.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./PaginaDePerfil.css">
+</head>
+
+<body>
+  <!-- inicio cabecalho -->
+  <div id="tagCabecalho"></div>
+  <!-- fim cabecalho -->
+
+  <!-- inicio tela -->
+
+  <main class="corpo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="profile-links">
+            <img src="assets/profilepic.png" alt="" id="profilepic">
+            <li>
+              <h4 id="NomeCompleto"></h4>
+            </li>
+            <br>
+            <br>
+            <a href="./PaginaDePerfil.html"><button id="button"><img src="./assets/editar.png" alt="Editar"
+                  id="editar"></button></a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mt-custum">
+            <h4>Edição:</H4>
+            <div class="details">
+              <div class="row">
+                <div class="col-8">
+                  Nome
+                </div>
+                <div class="col-4">
+                  <input type="text" id="Nome" class="inputbox">
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <div class="row">
+                <div class="col-8">
+                  Sobrenome
+                </div>
+                <div class="col-4">
+                  <input type="text" id="Sobrenome" class="inputbox">
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <div class="row">
+                <div class="col-8">
+                  Username
+                </div>
+                <div class="col-4">
+                  <input type="text" id="Username" class="inputbox">
+                </div>
+              </div>
+            </div>
+            <div class="details">
+              <div class="row">
+                <div class="col-8">
+                  Email
+                </div>
+                <div class="col-4">
+                  <input type="text" id="Email" class="inputbox">
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <Br></Br>
+          <Br></Br>
+          <Br></Br>
+          <Br></Br>
+          <Br></Br>
+
+  </main>
+
+  <!-- fim tela -->
+
+  <footer id="tagRodape">
+
+  </footer>
+
+  <script>
+    $(
+        function () {
+          $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
+          $("#tagRodape").load("../Rodapé/rodape.html");
+
+          // aguarda o carregamento do cabeçalho para inserir a logo.
+          setTimeout(() => {
+            var logo = document.getElementById('logo')
+            logo.src = "/src/assets/logoEduPop.png"
+          }, 250)
+        }
+      );
+
+      window.onload = function () {
+        const Nome = document.getElementById("Nome")
+        const Sobrenome = document.getElementById("Sobrenome")
+        const Username = document.getElementById("Username")
+        const Email = document.getElementById("Email")
+        const NomeCompleto = document.getElementById("NomeCompleto")
+        const botao = document.getElementById("button")
+
+
+        botao.addEventListener('click', function (e) {
+
+          dados[0].Nome = Nome.value
+          dados[0].Sobrenome = Sobrenome.value
+          dados[0].Username = Username.value
+          dados[0].Email = Email.value
+
+          localStorage.setItem("pessoas", JSON.stringify(dados))
+        })
+
+        let dados = localStorage.getItem("pessoas")
+
+        dados = JSON.parse(dados)
+
+        Nome.value = dados[0].Nome
+        Sobrenome.value = dados[0].Sobrenome
+        Username.value = dados[0].Username
+        Email.value = dados[0].Email
+        NomeCompleto.value = dados[0].Nome + " " + dados[0].Sobrenome
+
+
+        function preencher() {
+          NomeCompleto.innerText = dados[0].Nome + " " + dados[0].Sobrenome
+        }
+
+        preencher()
+
+      }
+  </script>
+
+</body>
+
+</html>

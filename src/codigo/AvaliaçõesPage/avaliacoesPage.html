@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./avaliacoesPage.css">
+  <script src="./avaliacoesPage.js"></script>
+  <title>Edupop</title>
+</head>
+
+<body>
+  <!-- inicio cabecalho -->
+  <div id="tagCabecalho"></div>
+  <!-- fim cabecalho -->
+
+  <!-- inicio tela -->
+  <main class="corpo">
+  
+    <body>
+      <header>
+        <div class="title-container">
+          <h1>Avaliações</h1>
+          <p id="average-rating"></p>
+        </div>
+      </header>
+  
+      <section id="reviews">
+        <div id="user-review">
+          <h2>Nos dê sua avaliação!</h2>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" placeholder="Seu Nome">
+          <label for="photo">Foto:</label>
+          <input type="file" id="photo" accept="image/*">
+  
+          <div id="rating">
+            <span class="star one" onclick="rate(1)">&#9733;</span>
+            <span class="star two" onclick="rate(2)">&#9733;</span>
+            <span class="star three" onclick="rate(3)">&#9733;</span>
+            <span class="star four" onclick="rate(4)">&#9733;</span>
+            <span class="star five" onclick="rate(5)">&#9733;</span>
+          </div>
+          <textarea id="comment" placeholder="Adicione um comentário..."></textarea>
+          <button onclick="submitReview()">Enviar Avaliação</button>
+        </div>
+        <!-- lugar para as avaliações fixas -->
+        <div id="all-reviews">
+          <h2>Todas as Avaliações</h2>
+          <ul id="review-list">
+            <li class="review-item">
+              <div class="user-info">
+                <img src="assets/images/art.jpg" alt="User Photo" class="profile-photo">
+                <div class="info-text">
+                  <strong>João</strong>
+                  <br>
+                  <span class="rating">Estrelas: 5</span>
+                  <br>
+                  <span class="comment">Os cursos me ajudaram demais, evoluí muito!</span>
+                </div>
+              </div>
+            </li>
+  
+            <li class="review-item">
+              <div class="user-info">
+                <img src="assets/images/drogas.jpg" alt="User Photo" class="profile-photo">
+                <div class="info-text">
+                  <strong>Maria</strong>
+                  <br>
+                  <span class="rating">Estrelas: 4</span>
+                  <br>
+                  <span class="comment">Cursos de alta qualidade, porém, poderiam melhorar no tópico de...</span>
+                </div>
+              </div>
+            </li>
+  
+            <li class="review-item">
+              <div class="user-info">
+                <img src="assets/images/gatinho1.jpg" alt="User Photo" class="profile-photo">
+                <div class="info-text">
+                  <strong>Carlos</strong>
+                  <br>
+                  <span class="rating">Estrelas: 3</span>
+                  <br>
+                  <span class="comment">O vídeo as vezes não aparece para poder assistir.</span>
+                </div>
+              </div>
+            </li>
+  
+            <li class="review-item">
+              <div class="user-info">
+                <img src="assets/images/gatinho2.jpg" alt="User Photo" class="profile-photo">
+                <div class="info-text">
+                  <strong>Ana</strong>
+                  <br>
+                  <span class="rating">Estrelas: 5</span>
+                  <br>
+                  <span class="comment">Site incrivelmente bom!!!!!!!</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </body>
+  </main>
+
+  <!-- fim tela -->
+
+  <footer id="tagRodape">
+
+  </footer>
+</body>
+
+</html>

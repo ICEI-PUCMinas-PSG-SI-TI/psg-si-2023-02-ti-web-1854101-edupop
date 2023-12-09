@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./cadastroUsuario.css">
+    <title>Edupop</title>
+</head>
+
+<body>
+    <!-- inicio cabecalho -->
+    <div id="tagCabecalho"></div>
+    <!-- fim cabecalho -->
+
+    <!-- inicio tela -->
+    <main>
+        <div class="container">
+            <div class="card card-cadastro">
+                <h1 class="cadastrar">Cadastrar</h1>
+                <div id="mensagemSuccess">Cadastrado com sucesso.</div>
+                <div id="mensagemErro">Erro. Preencha todos os campos.</div>
+                <div class="label-float">
+
+                    <label id="labelNome" for="usuario">Nome</label>
+                    <input type="text" id="nome" placeholder="">
+
+                    <label id="labelUsuario" for="usuario">Usuário</label>
+                    <input type="text" id="usuario" placeholder="">
+
+                    <label class="labelSenha" for="usuario" id="labelSenha">Senha</label>
+                    <input type="password" id="senha" placeholder="">
+                    <i class="fa fa-eye cadastro-senha" aria-hidden="true"></i>
+                    
+                    <label for="usuario" id="labelConfirmarSenha">Confirmar Senha</label>
+                    <input class="labelConfirmarSenha" type="password" id="cadastro" placeholder="">
+
+                    <div class="botao">
+                        <button onclick='cadastrar()' class="button-cadastro botao2" value="Enviar">Cadastrar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <!-- fim tela -->
+
+    <footer id="tagRodape">
+    </footer>
+    <script src="./cadastroUsuario.js"></script>
+
+</body>
+
+</html>
