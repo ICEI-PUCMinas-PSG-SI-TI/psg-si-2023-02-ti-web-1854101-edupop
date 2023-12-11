@@ -50,16 +50,6 @@
             <div class="details">
               <div class="row">
                 <div class="col-8">
-                  Sobrenome
-                </div>
-                <div class="col-4">
-                  <input type="text" id="Sobrenome" class="inputbox">
-                </div>
-              </div>
-            </div>
-            <div class="details">
-              <div class="row">
-                <div class="col-8">
                   Username
                 </div>
                 <div class="col-4">
@@ -111,38 +101,27 @@
 
       window.onload = function () {
         const Nome = document.getElementById("Nome")
-        const Sobrenome = document.getElementById("Sobrenome")
         const Username = document.getElementById("Username")
         const Email = document.getElementById("Email")
         const NomeCompleto = document.getElementById("NomeCompleto")
         const botao = document.getElementById("button")
 
+        const UsuarioAtual = JSON.parse(localStorage.getItem("UsuarioAtual"))
+
 
         botao.addEventListener('click', function (e) {
-
-          dados[0].Nome = Nome.value
-          dados[0].Sobrenome = Sobrenome.value
-          dados[0].Username = Username.value
-          dados[0].Email = Email.value
-
-          localStorage.setItem("pessoas", JSON.stringify(dados))
+          UsuarioAtual.nomeCad = Nome.value
+          UsuarioAtual.usuarioCad = Username.value
+          localStorage.setItem("UsuarioAtual", JSON.stringify(dados))
         })
 
-        let dados = localStorage.getItem("pessoas")
-
-        dados = JSON.parse(dados)
-
-        Nome.value = dados[0].Nome
-        Sobrenome.value = dados[0].Sobrenome
-        Username.value = dados[0].Username
-        Email.value = dados[0].Email
-        NomeCompleto.value = dados[0].Nome + " " + dados[0].Sobrenome
-
+        Nome.value = UsuarioAtual.nomeCad
+        Username.value = UsuarioAtual.usuarioCad
+        Email.value = `${UsuarioAtual.usuarioCad}@gmail.com`
 
         function preencher() {
           NomeCompleto.innerText = dados[0].Nome + " " + dados[0].Sobrenome
         }
-
         preencher()
 
       }

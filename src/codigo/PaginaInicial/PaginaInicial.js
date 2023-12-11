@@ -15,3 +15,12 @@ $(
         }, 250)
     }
 );
+
+window.addEventListener('load', () => {
+    if(localStorage.getItem('Logado') == null){
+        localStorage.setItem("Logado", false);
+    }
+})
+
+
+

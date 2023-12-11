@@ -1,7 +1,7 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-       if(localStorage.getItem("Logado") == "true"){
+        if(localStorage.getItem("Logado") == "true"){
             $("#tagCabecalho").load("../CabeçalhoLogado/cabecalhoLogado.html");
         } else {
             $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
@@ -143,6 +143,9 @@ senhaCadastroConfirmar.addEventListener('keyup', () => {
         labelSenhaCadastroConfirmar.innerHTML = 'Senha Confirmada '
         validConfirmarSenha = true;
     }
+    
+
+    
 
     else {
         labelSenhaCadastroConfirmar.setAttribute('style', 'color: red;')
@@ -187,18 +190,11 @@ function cadastrar() {
                 }
             )
             
-            localStorage.setItem('UsuarioAtual' , JSON.stringify
-            ({
-                nomeCad: nomeCadastro.value,
-                usuarioCad: usuarioCadastro.value,
-                senhaCad: senhaCadastro.value
-            }))
-            localStorage.setItem('Logado' , true)
             localStorage.setItem('listaUsuario' , JSON.stringify(listaUsuario))
             setTimeout(()=>{
-                window.location.href ='../ExibirCursos/exibirCursos.html'
-        }, 500)
-        
+                window.location.href ='login.html'
+        }, 3000)
+    
        
 
     }
@@ -208,6 +204,13 @@ function cadastrar() {
 
     }
 }
+
+
+
+
+
+
+
 
 
 /*

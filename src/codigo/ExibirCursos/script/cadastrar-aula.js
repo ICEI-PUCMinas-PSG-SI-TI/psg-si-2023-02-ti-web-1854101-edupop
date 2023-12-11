@@ -1,7 +1,7 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-       if(localStorage.getItem("Logado") == "true"){
+        if(localStorage.getItem("Logado") == "true"){
             $("#tagCabecalho").load("../CabeçalhoLogado/cabecalhoLogado.html");
         } else {
             $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
@@ -17,7 +17,6 @@ $(
 );
 
 // Cadastrar Aula
-
 const html = document.querySelector("#html")
 const css = document.querySelector("#css")
 const javascript = document.querySelector("#javascript")
@@ -70,6 +69,8 @@ function javascriptReceber() {
     css.style.backgroundColor = "black"
     css.style.color = "#F4F4F4";
 }
+
+
 
 
 cadNomeCurso.addEventListener("click", function (evento) {
@@ -130,4 +131,10 @@ function salvarCurso() {
 
 
 }
+
+
+
+
+
+
 

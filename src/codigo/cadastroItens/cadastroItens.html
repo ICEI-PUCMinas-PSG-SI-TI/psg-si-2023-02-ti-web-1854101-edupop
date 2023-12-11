@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="./cadastroItens.css">
+  <script src="./cadastroItens.js"></script>
+  <title>Edupop</title>
+</head>
+
+<body>
+  <!-- inicio cabecalho -->
+  <div id="tagCabecalho"></div>
+  <!-- fim cabecalho -->
+
+  <!-- inicio tela -->
+  <main>
+    <form style=" max-width: 40rem;" class="m-auto mt-5">
+      <div class="form-group">
+        <label for="name">Nome do item</label>
+        <input type="text" class="form-control" name="nome" id="name" placeholder="Digite o nome do item">
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="tipo" id="livro" value="livro">
+        <label class="form-check-label" for="livro">Livro</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="tipo" id="arquivo" value="arquivo">
+        <label class="form-check-label" for="arquivo">Arquivo</label>
+      </div>
+      <div class="form-group">
+        <label for="editora">Editora</label>
+        <input type="text" class="form-control" name="texto" id="editora" placeholder="Digite o nome da editora">
+      </div>
+      <div class="form-group">
+        <label for="link">Link PDF</label>
+        <input type="text" class="form-control" name="drive" id="link" placeholder="Digite o link do PDF">
+      </div>
+      <input type="submit" onclick="cadastroItem()" value="Registrar">
+    </form>
+  </main>
+
+  <!-- fim tela -->
+
+  <footer id="tagRodape">
+
+  </footer>
+</body>
+
+</html>

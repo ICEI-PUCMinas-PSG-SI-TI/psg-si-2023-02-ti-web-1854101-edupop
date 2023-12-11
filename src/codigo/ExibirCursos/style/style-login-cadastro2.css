@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.linha{
+    display: inline;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+.botao-cadastrar-aula {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+.botao-cadastrar-aula:hover {
+  background-color: #F4F4F4;
+  color: black;
+}
+
+.botao-cadastrar-aula:focus {
+    background-color: #F4F4F4;
+    color: black;
+    border: solid 1px black;
+}
+
+table{
+    margin-top: 30px;
+}
+
+.botao-aula {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .botao-aula:hover {
+    background-color: #F4F4F4;
+    color: black;
+  }
+
+
+  /*************** Abaixo Organização das Vídeos Aulas **********************/
+
+
+
+  .receberAula2{
+    background-color:#F9F9F9 ;
+    border: solid 2px #CCCCCC;
+    margin: 20px 0; 
+  }
+
+  .titulo-aula{
+    font-size: 30px;
+    color: #666666;
+    padding: 10px;
+  }
+
+  .inline{
+    display: inline;
+  }
+
+  .linha-aula{
+    
+  }
+  .linha-espaco{
+    padding: 30px;
+  }
+
+  .imagem-aviso{
+    width: 100%;
+  }
+

@@ -1,7 +1,7 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-       if(localStorage.getItem("Logado") == "true"){
+        if(localStorage.getItem("Logado") == "true"){
             $("#tagCabecalho").load("../CabeçalhoLogado/cabecalhoLogado.html");
         } else {
             $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
@@ -205,4 +205,3 @@ mostrarAulas();
 
 
 */
-

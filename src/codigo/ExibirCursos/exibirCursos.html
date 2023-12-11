@@ -2,31 +2,51 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <link rel="stylesheet" href="./exibirCursos.css">
-  <script src="./exibirCursos.js"></script>
-  <title>Edupop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-login-cadastro.css">
+    <link rel="stylesheet" href="style/style-login-cadastro2.css">
+    <title>Edupop</title>
 </head>
 
 <body>
-  <!-- inicio cabecalho -->
-  <div id="tagCabecalho"></div>
-  <!-- fim cabecalho -->
+    <!-- inicio cabecalho -->
+    <div id="tagCabecalho"></div>
+    <!-- fim cabecalho -->
 
-  <!-- inicio tela -->
-  <main>
-   
-  </main>
+    <!-- inicio tela -->
+    <main>
+<div id="receberAula" class="receberAula">
+    <table>
+        <tr>
+          <td><a href="exibir-aula- html.html"><button class="botao-aula-curso" id="">HTML</button></a></td>
+          <td class="celula-indice"><span id="numero-aulas-html"></span>aulas</td>
+        </tr>
+        <tr>
+          <td><a href="exibir-aula-css.html"><button class="botao-aula-curso" id="">CSS</button></a></td>
+          <td class="celula-indice"><span id="numero-aulas-css"></span>aulas</td>
+        </tr>
+        <tr>
+          <td><a href="exibir-aula-javascript.html"><button class="botao-aula-curso" id="">JAVASCRIPT</button></a></td>
+          <td class="celula-indice"><span id="numero-aulas-javascript"></span>aulas</td>
+        </tr>
+        <div id="receber"></div>
+      </table>
 
-  <!-- fim tela -->
+</div>
 
-  <footer id="tagRodape">
 
-  </footer>
-  <script src="./cadastroCurso.js"></script>
+    </main>
+    <!-- fim tela -->
 
+    <footer id="tagRodape">
+
+    </footer>
+
+
+<script src="script/receber-dados-aula.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Wix+Madefor+Display:wght@800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav {
+
+    background-color: #EDB106 !important;
+
+}
+
+.imagem {
+    max-width: 150px;
+}
+
+#navbarSupportedContent ul {
+    margin-top: 15px;
+}
+
+#nav a {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.corpo {
+    
+
+}
+.tagCabecalho{
+    height: 10vh;
+}
+
+.rodape {
+
+    background-color: #EDB106 !important;
+    height: 10vh;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.centralizar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape p {
+    
+    color: black;
+    position: relative;
+    bottom: 0;
+}
+
+#mensagemSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#mensagemErro{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+
+/* Página exibição dos cursos */
+.celula-indice{
+    width: 64px !important;
+    height: 10px !important;
+   
+    padding-top: 17px;
+    padding-left: 5px;
+}
+
+.botao-aula-curso {
+    background-color: black;
+    color: white;
+    width: 280px;
+    padding: 5px ;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .botao-aula-curso:hover {
+    background-color: #F4F4F4;
+    color: black;
+  }
+  

@@ -1,7 +1,6 @@
-// carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-       if(localStorage.getItem("Logado") == "true"){
+        if(localStorage.getItem("Logado") == "true"){
             $("#tagCabecalho").load("../CabeçalhoLogado/cabecalhoLogado.html");
         } else {
             $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
@@ -16,48 +15,8 @@ $(
     }
 );
 
-const listaRecuperada = localStorage.getItem('listaDeCursos');
-listaDeCursos = JSON.parse(listaRecuperada)
-let html = 0;
-const aulasNoHtml = document.querySelector("#conteudo-aulas")
 
-
-if (!listaDeCursos)
-    aulasNoHtml.innerHTML += `<h3>Não possui aulas.</h3>`
-
-
-for (i = 0; i < listaDeCursos.length; i++)
-{
-    
-    if (listaDeCursos[i].curso === 'html') {
-        html++;
-        
-        aulasNoHtml.innerHTML += ` 
-        <div id="receberAula" class="receberAula">
-        <div classe="aula-container">
-          <div class="titulo-aula">
-            <h1 class="titulo-aula">Aula ${html} - ${listaDeCursos[i].aula}</h1>
-
-          </div>
-          <div class="video-aula" id="video-aula">
-            <iframe class="iframe-aula" src="${listaDeCursos[i].link}"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-            
-          </div>
-        </div>
-        <hr color="black" noshade size="5px">
-      </div>
-
-        `
-
-    }
-}
-
-
-
-/******* 
+/******* Cursos **************/
 const listaRecuperada = localStorage.getItem('listaDeCursos');
 listaDeCursos = JSON.parse(listaRecuperada)
 let html = 0;
@@ -66,6 +25,7 @@ let javascript = 0
 const numeroAulasHtml = document.querySelector("#numero-aulas-html");
 const numeroAulasCss = document.querySelector("#numero-aulas-css");
 const numeroAulasJavascript = document.querySelector("#numero-aulas-javascript");
+const aulasNoHtml = document.querySelector("#conteudo-aulas")
 
 for (i = 0; i < listaDeCursos.length; i++) {
 
@@ -91,7 +51,34 @@ numeroAulasJavascript.innerHTML = `${javascript + ' '}`;
 
 /************** Aulas ******************/
 
+for (i = 0; i < listaDeCursos.length; i++)
+{
+    
+    if (listaDeCursos[i].curso === 'html') {
+        html++;
+        
+        aulasNoHtml.innerHTML += ` 
+        <div id="receberAula" class="receberAula">
+        <div classe="aula-container">
+          <div class="titulo-aula">
+            <h1 class="titulo-aula">Aula ${html} - Dicas HTML</h1>
 
+          </div>
+          <div class="video-aula" id="video-aula">
+            <iframe class="iframe-aula" src="https://www.youtube.com/embed/Ejkb_YpuHWs?si=Wmcflq8oahaG3hY0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+
+          </div>
+        </div>
+        <hr color="black" noshade size="5px">
+      </div>
+
+        `
+
+    }
+}
 
 
 
@@ -205,4 +192,3 @@ mostrarAulas();
 
 
 */
-

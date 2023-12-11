@@ -1,7 +1,11 @@
 // carrega o cabeçalho e o footer na pagina.
 $(        
     function () {
-        $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
+        if(localStorage.getItem("Logado") == "true"){
+            $("#tagCabecalho").load("../CabeçalhoLogado/cabecalhoLogado.html");
+        } else{
+            $("#tagCabecalho").load("../Cabeçalho/cabecalho.html");
+        }
         $("#tagRodape").load("../Rodapé/rodape.html");
 
     // aguarda o carregamento do cabeçalho para inserir a logo.
@@ -14,56 +18,23 @@ $(
 
 
 function atribuir(){
-    const dados = [
-        { id: 1, Nome: "Rafaela", Sobrenome: "Gomes", Username: "@RafaelaGomes", Email: "RafaelaGomes@Email.com" },
-    ]
-    localStorage.setItem("pessoas", JSON.stringify(dados))
-
     const Nome = document.getElementById("Nome")
-    const Sobrenome = document.getElementById("Sobrenome")
     const Username = document.getElementById("Username")
     const Email = document.getElementById("Email")
     const NomeCompleto = document.getElementById("NomeCompleto")
-
-    let pessoas = JSON.parse(localStorage.getItem("pessoas"))
-
-
-    console.log(pessoas)
-
-    function preencher() {
-        Nome.innerText = pessoas[0].Nome
-        Sobrenome.innerText = pessoas[0].Sobrenome
-        Username.innerText = pessoas[0].Username
-        Email.innerText = pessoas[0].Email
-        NomeCompleto.innerText = pessoas[0].Nome + " " + pessoas[0].Sobrenome
-    }
-
-    preencher()
+    let usuarioAtual = JSON.parse(localStorage.getItem("UsuarioAtual"));
+    NomeCompleto.innerText = usuarioAtual.nomeCad
+    Nome.innerText = usuarioAtual.nomeCad
+    Username.innerText = usuarioAtual.usuarioCad
+    Email.innerText = `${usuarioAtual.usuarioCad}@gmail.com`
 }
 
-var elemento = document.querySelector('#atribuir');
-console.log(elemento)
-elemento.addEventListener('click', atribuir);
+window.addEventListener('load', atribuir);
 
-window.onload = function () {
-    const Nome = document.getElementById("Nome")
-    const Sobrenome = document.getElementById("Sobrenome")
-    const Username = document.getElementById("Username")
-    const Email = document.getElementById("Email")
-    const NomeCompleto = document.getElementById("NomeCompleto")
-
-    let pessoas = JSON.parse(localStorage.getItem("pessoas"))
-
-    console.log(pessoas)
-
-    function preencher() {
-        Nome.innerText = pessoas[0].Nome
-        Sobrenome.innerText = pessoas[0].Sobrenome
-        Username.innerText = pessoas[0].Username
-        Email.innerText = pessoas[0].Email
-        NomeCompleto.innerText = pessoas[0].Nome + " " + pessoas[0].Sobrenome
-    }
-
-    preencher()
+function Deslogar(){
+    localStorage.removeItem("UsuarioAtual");
+    setTimeout(()=>{
+        window.location.href ='../PaginaInicial/PaginaInicial.html'
+    }, 500)
+    localStorage.setItem("Logado", false)
 }
-

@@ -48,6 +48,43 @@ main {
   height: 100%;
 }
 
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-check .form-check-label {
+  padding: 8px 6px;
+  font-size: 17px;
+}
+
+input[type="submit"] {
+  background-color: #EDB106 !important;
+  color: #fff;
+  padding: 10px;
+  border: none;
+}
+
+.page-title {
+  max-height: 50px;
+  width: fit-content;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #D3D3D3;
+}
+
+.aux-icone {
+  height: 50px;
+  margin-right: 10px;
+}
 
 /* Estilo do rodapé */
 
