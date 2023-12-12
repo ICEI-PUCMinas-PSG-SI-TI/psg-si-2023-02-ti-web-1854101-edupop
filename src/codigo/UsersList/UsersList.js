@@ -22,13 +22,6 @@ function InserirListUsuariosJson() {
     let usersObject = {
     usersArray: [
         {
-            username: "leomendesrch",
-            nome: "Leonardo Mendes Rocha",
-            email: "leomendesrch2005@gmail.com",
-            pais: "Brasil",
-            gender: "masculino"
-        },
-        {
             username: "tati_ribeiro",
             nome: "Tatiane Ribeiro",
             email: "tati_ribeiro@gmail.com",
@@ -132,7 +125,7 @@ function InserirListUsuariosJson() {
             email: "lucas.oliveira@gmail.com",
             pais: "Brasil",
             gender: "masculino"
-        }
+        }   
     ]
 };
     localStorage.setItem("users", JSON.stringify(usersObject));
