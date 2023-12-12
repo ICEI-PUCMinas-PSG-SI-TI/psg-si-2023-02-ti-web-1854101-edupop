@@ -108,12 +108,12 @@ HTML, CSS, JavaScript.
 
 ## Wireframes
   
-<img src="docs/relatorio/imagess/página inicial.png">
-<img src="docs/relatorio/imagess/pagina login.png">
-<img src="docs/relatorio/imagess/pagina cadastro.png">
-<img src="docs/relatorio/imagess/página cadastro de cursos.png">
-<img src="docs/relatorio/imagess/pagina cadastro de noticias.png">
-<img src="docs/relatorio/imagess/Pagina de Noticias.png">
+<img src="/docs/relatorio/imagess/página inicial.png">
+<img src="/docs/relatorio/imagess/pagina login.png">
+<img src="/docs/relatorio/imagess/pagina cadastro.png">
+<img src="/docs/relatorio/imagess/página cadastro de cursos.png">
+<img src="/docs/relatorio/imagess/pagina cadastro de noticias.png">
+<img src="/docs/relatorio/imagess/Pagina de Noticias.png">
 
 
 ## Mapa de navegação
