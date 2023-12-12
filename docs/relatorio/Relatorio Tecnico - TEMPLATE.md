@@ -87,30 +87,33 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| Permitir a criação de aulas. | MUITO ALTA | 
-|RF-002| Permitir uma solicitação para uma correção de código.   | MUITO ALTA |
-|RF-003| Gerenciamento de Conteúdo.   | MUITO ALTA |
-|RF-004| Avaliação e comentários.   | MUITO ALTA |
-|RF-005| Sistema de Cadastro   | ALTA |
-|RF-006| Sistema de login  | ALTA |
-|RF-007| Painel do Professor   | ALTA |
-|RF-008| Gestão de Perfil   | ALTA |
-|RF-009| Acessibilide para PCD's  | ALTA |
-|RF-010| Fórum para debates  | MÉDIA |
-|RF-011| Biblioteca Digital   | MÉDIA |
-|RF-012| Acompanhamento de progresso   | MÉDIA |
-|RF-013| Ferramentas de Avaliação em Pares   | BAIXA |
-|RF-014| Formação de Grupo de estudos   | BAIXA |
+|RF-002| Gerenciamento de Conteúdo.   | MUITO ALTA |
+|RF-003| Avaliação e comentários.   | MUITO ALTA |
+|RF-004| Sistema de Cadastro   | ALTA |
+|RF-005| Sistema de login  | ALTA |
+|RF-006| Gestão de Perfil   | ALTA |
+|RF-007| Fórum para debates  | MÉDIA |
+|RF-008| Biblioteca Digital   | MÉDIA |
+|RF-009| CRUD da Biblioteca Digital   | MÉDIA |
+|RF-010| Gestão de usuário| MÉDIA |
+|RF-012| CRUD Noticias  | BAIXA |
+|RF-013| Exibição de Noticias  | BAIXA |
+
+
+
 
 # Projeto da Solução
 
 HTML, CSS, JavaScript.
 
 ## Wireframes
-
-<img src="/docs/relatorio/images/01_home.png">
-<img src="/docs/relatorio/images/02_todos_cursos.png">
-<img src="/docs/relatorio/images/03_modulos.png">
-<img src="/docs/relatorio/images/04_player_aula.png">
+  
+<img src="docs/relatorio/imagess/página inicial.png">
+<img src="docs/relatorio/imagess/pagina login.png">
+<img src="docs/relatorio/imagess/pagina cadastro.png">
+<img src="docs/relatorio/imagess/página cadastro de cursos.png">
+<img src="docs/relatorio/imagess/pagina cadastro de noticias.png">
+<img src="docs/relatorio/imagess/Pagina de Noticias.png">
 
 
 ## Mapa de navegação
