@@ -70,11 +70,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Luiza Eduarda Menezes Campos| Acompanhar meu progresso dos cursos| Poder saber o quanto estou progredindo.|
 |Luiza Eduarda Menezes Campos| Biblioteca Digital| Achar artigos, documentos ou materiais para auxiliar os estudos.|
 |Luiza Eduarda Menezes Campos| Fórum de debates| Tirar dúvidas com outros alunos.|
-|José Antônio de Campos| Avaliação em pares| Aprender a analisra códigos de outros programadores.|
-|José Antônio de Campos| Biblioteca Digital| Achar artigos, documentos ou materiais para auxiliar os estudos.|
+|José Antônio de Campos| Avaliação em pares| Aprender a analisar o código de outros programadores.|
+|José Antônio de Campos| Biblioteca Digital| Achar artigos, documentos ou materiais para auxiliar meus estudos.|
 |José Antônio de Campos| Formação de grupos de estudos| Unir-se a outros programadores para o desenvolvimento de projetos complexos. |
 |Marcela Santino| Gerenciamento de conteúdo| Poder remover conteúdos que ferem os Termos de Condição de Uso da plataforma.|
 
@@ -104,7 +103,7 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 # Projeto da Solução
 
-HTML, CSS, JavaScript.
+HTML, CSS, JavaScript, Bootstrap, JQuery, JSON.
 
 ## Wireframes
   
