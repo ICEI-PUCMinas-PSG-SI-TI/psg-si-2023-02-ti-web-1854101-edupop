@@ -108,21 +108,17 @@
 
         const UsuarioAtual = JSON.parse(localStorage.getItem("UsuarioAtual"))
 
-
         botao.addEventListener('click', function (e) {
           UsuarioAtual.nomeCad = Nome.value
           UsuarioAtual.usuarioCad = Username.value
-          localStorage.setItem("UsuarioAtual", JSON.stringify(dados))
+          localStorage.setItem("UsuarioAtual", JSON.stringify(UsuarioAtual))
         })
 
         Nome.value = UsuarioAtual.nomeCad
         Username.value = UsuarioAtual.usuarioCad
         Email.value = `${UsuarioAtual.usuarioCad}@gmail.com`
 
-        function preencher() {
-          NomeCompleto.innerText = dados[0].Nome + " " + dados[0].Sobrenome
-        }
-        preencher()
+        NomeCompleto.innerText = UsuarioAtual.nomeCad
 
       }
   </script>

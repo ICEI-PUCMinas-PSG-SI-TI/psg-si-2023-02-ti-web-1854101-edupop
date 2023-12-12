@@ -1,0 +1,54 @@
+body {
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1, h4, ol {
+    margin: 0;
+}
+p {
+    margin: 5px 0;
+}
+.top-bar {
+    background-color: yellow;
+    padding: 2 15px;
+}
+
+.main {
+    background-color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.row {
+    padding: 5px 0;
+}
+
+.bottom {
+    display: flex;
+    color: grey;
+    font-size: 12px;
+}
+
+.timestamp {
+    padding-right: 10px;
+}
+
+
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.main h4.title a {
+    text-decoration: none;
+    color: black;
+}
+#tagRodape{
+    margin-top: auto;
+}

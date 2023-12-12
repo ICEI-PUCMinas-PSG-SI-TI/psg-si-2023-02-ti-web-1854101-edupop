@@ -1,0 +1,62 @@
+body {
+    margin: 10px 60px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1, h4, ol {
+    margin: 0;
+}
+p {
+    margin: 5px 0;
+}
+textarea {
+    width: 500px;
+    height: 120px;
+    padding-left: 5px;
+}
+button {
+    display: block;
+    margin: 10px 0;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    color:white;
+    border-color: black;
+    max-width: 500px;
+    border: 1px solid #0a0a23;
+}
+.top-bar {
+    background-color: yellow;
+    padding: 2 15px;
+}
+.main {
+    background-color: white;
+    padding: 10px 15px;
+}
+.comments {
+    margin: 40px 0;
+    
+}
+.comment {
+    margin: 10px 0;
+}
+.row {
+    padding: 5px 0;
+}
+.bottom, .top-comment {
+    display: flex;
+    color: rgb(241, 241, 241);
+    font-size: 12px;
+}
+.timestamp {
+    padding-right: 10px;
+}
+.comment-ts {
+    padding-left: 10px;
+}
+.user, .timestamp, .comment-ts, .comment-count{
+    color: black;
+    font-size: 20px;
+}

@@ -44,11 +44,29 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  padding: 62.5px 150px;
   height: 100%;
 }
 
+.cards-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 350px;
+  list-style: none;
+  text-decoration: none;
+}
 
+a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+}
 
 /* Estilo do rodapé */
 
